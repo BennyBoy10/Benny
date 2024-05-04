@@ -82,6 +82,42 @@
         background-color: #0056b3; /* Button background color on hover */
     }
     
+    /* Previous Page button styles */
+    .previous-page-button {
+        position: absolute;
+        bottom: -250px;
+        left: 10px;
+        padding: 5px 5px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .previous-page-button:hover {
+        background-color: #0056b3;
+    }
+    
+     /* Next Page button styles */
+    .next-page-button {
+        position: absolute;
+        bottom: -250px;
+        right: 20px;
+        padding: 5px 5px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .next-page-button:hover {
+        background-color: #0056b3;
+    }
+    
 </style>
 </head>
 <body>
@@ -95,7 +131,7 @@
     
     <div class="container">
         <h2>Understanding Computer Software</h2>
-        <p>In this section, we delve into the realm of computer software, exploring various applications, operating systems, and programming languages.</p>
+        <p>In this section, we'll discuss about computer software, exploring various applications, operating systems, and programming languages.</p>
         <h2>Types of Software</h2>
         <ul>
             <li>System Software (Operating Systems)</li>
@@ -106,7 +142,14 @@
         <h2>Operating Systems</h2>
         <p>Learn about popular operating systems such as Windows, macOS, and Linux, and their key features.</p>
         <h2>Programming Languages</h2>
-        <p>Discover different programming languages and their uses in software development and automation.</p>
+        <p>Discover different programming languages and their uses in software development and automation.
+        </p>
+        
+        <!-- Previous Page button inside container -->
+        <a href="index.html" class="previous-page-button">Previous Page</a>
+        <br></br>
+        <!-- Next Page button inside container -->
+        <a href="hardware.html" class="next-page-button">Next Page</a>
     </div>
     
      <footer>
