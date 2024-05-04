@@ -38,6 +38,7 @@
         background-color: #007bff;
     }
     .container {
+        position: relative; /* Make container relative */
         max-width: 800px;
         margin: 20px auto;
         padding: 20px;
@@ -55,7 +56,7 @@
     }
     footer {
         text-align: center;
-        margin-top: 0px;
+        margin-top: 20px; /* Adjust margin-top as needed */
         padding: 3px 0; /* Increased padding for better spacing */
         background-color: #333;
         color: #fff;
@@ -82,6 +83,24 @@
     .footer-button:hover {
         background-color: #0056b3; /* Button background color on hover */
     }
+
+    /* Next Page button styles */
+    .next-page-button {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 6px 7px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .next-page-button:hover {
+        background-color: #0056b3;
+    }
 </style>
 </head>
 <body>
@@ -93,8 +112,8 @@
         </nav>
     </header>
     <div class="container">
-        <h2>Exploring the Fascinating World of Computers</h2>
-        <p>In this section, we delve into the intricate details of computers, from their components to their evolution and impact on society.</p>
+        <h2>Understanding Computers</h2>
+        <p>In this section, we'll discuss about Computer Systems. From their components to their evolution and impact on society.</p>
         <h2>Components of a Computer</h2>
         <ul>
             <li>CPU (Central Processing Unit)</li>
@@ -104,16 +123,19 @@
             <li>Input and Output Devices (Keyboard, Mouse, Monitor)</li>
         </ul>
         <h2>History and Evolution</h2>
-        <p>Trace the fascinating history of computers, from early mechanical devices to cutting-edge technologies of today.</p>
+        <p>Trace the history of computers, from early mechanical devices to advanced technologies of today.</p>
         <h2>Modern Technological Advancements</h2>
         <p>Discover the latest trends and innovations in computer technology, including artificial intelligence and quantum computing.</p>
+        
+        <br></br>
+        <!-- Next Page button inside container -->
+        <a href="software.html" class="next-page-button">Next Page</a>
     </div>
     
-     <footer>
-    <div class="footer-content">
-      <p>Made by <a href="https://bit.ly/bulamabenjamin" target="_blank" class="footer-button">BennyBoy</a></p>
-    </div>
-</footer>
-    
+    <footer>
+        <div class="footer-content">
+            <p>Made by <a href="https://bit.ly/bulamabenjamin" target="_blank" class="footer-button">BennyBoy</a></p>
+        </div>
+    </footer>
 </body>
 </html>
